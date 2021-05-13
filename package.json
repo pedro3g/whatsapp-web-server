@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-web-server",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/krelod/whatsapp-web-server.git",
+  "author": "krelod <pgomesrodrigues801@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.1"
+  }
+}
