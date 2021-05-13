@@ -1,6 +1,6 @@
 {
   "verbose": true,
-  "ignore": ["node_modules", "tests"],
+  "ignore": ["node_modules/", "tests/", "package.json"],
   "execMap": {
     "js": "node --inspect ."
   }
